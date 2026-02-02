@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: article
+title: "The Fundamental Fields Theorem"
+
+authors:
+  - family-names: Gates
+    given-names: Simon F.
+
+abstract: >
+  The Fundamental Fields Theorem provides a structural, upstream classification
+  of classical interaction fields under the requirement of closure. It defines
+  conservative criteria for fundamentality—classical covariance and self-contained
+  conservation—and applies them eliminatively to candidate classical fields.
+  The theorem proves that, in the classical domain, gravity is uniquely admissible
+  as a closing interaction field, while all non-gravitational interaction fields
+  are necessarily open in the stated sense. The result is purely classificatory,
+  parameter-free, and logically prior to gravitational dynamics or phenomenology.
+
+doi: 10.5281/zenodo.18387035
+url: https://doi.org/10.5281/zenodo.18387035
+repository-code: "https://github.com/ananke-research/fundamental-fields-theorem"
+
+license: CC-BY-4.0
+
+keywords:
+  - classical gravity
+  - fundamental interactions
+  - closure
+  - field theory
+  - structural classification
+  - theoretical physics
+  - philosophy of physics
+
+preferred-citation:
+  type: article
+  title: "The Fundamental Fields Theorem"
+  authors:
+    - family-names: Gates
+      given-names: Simon F.
+  year: 2026
+  doi: 10.5281/zenodo.18387035
+  publisher: Zenodo
