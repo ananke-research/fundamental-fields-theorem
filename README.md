@@ -1,84 +1,123 @@
-# Fundamental Fields Theorem (FFT)
+# Fundamental Fields Theorem
 
-This repository contains the **Fundamental Fields Theorem (FFT)**, an upstream structural
-classification result for classical interaction fields. The theorem addresses a logically
-prior question to dynamics, modelling, or phenomenology:
+This repository contains the **Fundamental Fields Theorem (FFT)**, a structural
+classification result concerning **classical fields under closure**.
 
-**Which classical interaction fields can be fundamental in principle?**
+The theorem establishes that **gravity is the unique classical field capable of closure**
+when finite conserved field energy, covariance, and exhaustion of functional freedom under
+symmetry are required.
 
-The FFT establishes conservative criteria for fundamentality based on classical covariance
-and self-contained conservation (closure), and applies them eliminatively to candidate
-classes of classical fields.
+The result is deductive, parameter-free, and independent of phenomenology.  
+No actions, scaling laws, or regime behaviour are derived here. Those occur strictly
+downstream.
 
-The result is deductive and parameter-free. It introduces no field equations, no action,
-no phenomenological modelling, and no empirical tuning. Its conclusions follow solely from
-structural admissibility requirements.
+---
+
+## Scope and purpose
+
+The purpose of the Fundamental Fields Theorem is **classification**, not modelling.
+
+It answers the upstream question:
+
+> *Which classical fields are admissible in principle once closure is required?*
+
+Closure is defined as the ability of a field to self-regulate with finite conserved norm
+under symmetry, without external bookkeeping or additional degrees of freedom.
 
 ---
 
 ## Core result
 
-Under the minimal requirements of classical covariance and self-contained conservation
-in closure regimes:
+Under the requirements of:
 
-1. **Closure as a classificatory criterion:**  
-   A fundamental classical interaction field must regulate its own conserved quantities
-   without reliance on independent charge sectors, phenomenological prescriptions, or
-   external bookkeeping, and must exhaust its functional freedom under sufficient symmetry.
+- classical covariance,
+- finite conserved quadratic field norm,
+- exhaustion of functional degrees of freedom under symmetry,
 
-2. **Eliminative classification:**  
-   Gauge-type interaction fields, matter fields, and composite or effective descriptions
-   necessarily fail closure in the stated sense and are therefore structurally open.
+the Fundamental Fields Theorem establishes that:
 
-3. **Uniqueness of gravity:**  
-   In the classical domain, the only interaction field capable of closure is gravity.
-   Gravity is uniquely admissible as a fundamental classical interaction field; all
-   non-gravitational interaction fields are necessarily open.
+- **gravity alone closes** as a classical field;
+- all other classical fields fail closure under symmetry reduction;
+- gravity’s admissibility is structural, not contingent.
 
-The theorem is classificatory rather than dynamical. It does not modify gravity, derive
-its equations of motion, or assume any specific action.
+This result is logically prior to any statement about gravitational dynamics or actions.
+
+---
+
+## What this theorem does not do
+
+This work does **not**:
+
+- derive gravitational field equations;
+- classify vacuum or non-vacuum regimes;
+- introduce residual degrees of freedom;
+- address galaxy dynamics or cosmology;
+- engage phenomenological data.
+
+Those questions are addressed downstream in the Ananke framework.
 
 ---
 
 ## Repository structure
 
-- `paper/` — canonical paper artefacts (PDF mirror and editable source). The Zenodo record
-  is the version of record for citation purposes.
-- `pages/` — short technical pages following the paper’s logical development; no new
-  claims appear here.
+- [`paper/`](paper/)  
+  Canonical paper artefacts.  
+  The Zenodo record is the **version of record**; the PDF here is a mirror only.
+  Editable source files are located in [`paper/source/`](paper/source/).
+
+- [`pages/`](pages/)  
+  Short technical pages that mirror the paper’s logical structure.
+  These pages restate results for clarity and navigation and introduce no new claims.
 
 ---
 
-## How to read
+## Pages overview
 
-- Start with `pages/00-overview.md` for orientation.
-- See `pages/05-classification-of-classical-fields.md` for the eliminative analysis.
-- See `pages/06-why-gravity-is-unique.md` for the identification result.
-- See `pages/07-domain-of-validity-and-falsification.md` for scope and limits.
-- See `pages/papers.md` for the Zenodo record, DOI, and PDF mirror.
+The `pages/` directory mirrors the paper’s section structure:
+
+- [`pages/00-overview.md`](pages/00-overview.md) — overview  
+- [`pages/01-problem-statement.md`](pages/01-problem-statement.md) — problem statement  
+- [`pages/02-definitions-of-closure.md`](pages/02-definitions-of-closure.md) — definitions of closure  
+- [`pages/03-axioms-and-admissibility.md`](pages/03-axioms-and-admissibility.md) — axioms and admissibility  
+- [`pages/04-exhaustion-of-functional-freedom.md`](pages/04-exhaustion-of-functional-freedom.md) — exhaustion of functional freedom  
+- [`pages/05-classification-of-classical-fields.md`](pages/05-classification-of-classical-fields.md) — classification of classical fields  
+- [`pages/06-why-gravity-is-unique.md`](pages/06-why-gravity-is-unique.md) — gravity’s uniqueness  
+- [`pages/07-domain-of-validity-and-falsification.md`](pages/07-domain-of-validity-and-falsification.md) — domain of validity and falsification  
 
 ---
 
 ## Relation to other repositories
 
-This repository sits upstream within a larger logically ordered framework:
+This repository is part of a logically ordered framework:
 
-- `fundamental-fields-theorem` — establishes which classical interaction field can close.
-- `ananke-theorem` — determines the admissible internal structure of gravity under closure.
-- `phenomenological-consequences-of-ananke` — derives regime-dependent scaling laws implied
-  by the classified structure.
-- `structural-diagnostics-of-gravitational-closure` — develops diagnostic and falsification
-  criteria implied by closure.
+- [`fundamental-fields-theorem`](https://github.com/ananke-research/fundamental-fields-theorem) *(this repository)*  
+  Establishes gravity as the unique classical field capable of closure.
 
-Each paper is housed in a separate repository and should be cited independently.
+- [`ananke-theorem`](https://github.com/ananke-research/ananke-theorem)  
+  Classifies the admissible closed gravitational field structure and unique action.
+
+- [`phenomenological-consequences-of-ananke`](https://github.com/ananke-research/phenomenological-consequences-of-ananke)  
+  Derives the observable galactic and cosmological scaling relations implied by that
+  structure.
+
+- [`structural-diagnostics-of-gravitational-closure`](https://github.com/ananke-research/structural-diagnostics-of-gravitational-closure)  
+  Develops falsification criteria and diagnostic interpretation.
+
+Each repository has a distinct logical role and should be cited independently.
 
 ---
 
 ## Citation
 
-If you use or reference this work, cite the Zenodo record listed in `pages/papers.md`.
-Machine-readable citation metadata is provided in `CITATION.cff` at the repository root.
+If you use or reference this work, cite the Zenodo record listed in
+[`CITATION.cff`](CITATION.cff).
 
-The Fundamental Fields Theorem is complete at the level of structural classification.
-All downstream results concerning gravitational dynamics, actions, or phenomenology
-presuppose—but do not re-derive—this upstream classification.
+The Zenodo record is the canonical version of record.
+
+---
+
+## License
+
+This work is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+
+See [`LICENSE`](LICENSE) for full terms.
